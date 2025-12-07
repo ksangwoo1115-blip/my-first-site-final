@@ -98,11 +98,11 @@ export function About() {
   const defaultInfo = {
     title: "소개",
     subtitle: "당신의 전문성과 열정을 소개해주세요.",
-    background: {"image":"","video":"","color":"","opacity":0.1},
-    experienceCards: [{"icon":"briefcase","title":"회사명","period":"2020 - 현재","description":"직무 및 역할"},{"icon":"graduation","title":"학교명","period":"2016 - 2020","description":"전공 및 학위"},{"icon":"award","title":"자격증/수상","period":"2021","description":"설명을 입력하세요"}],
-    skills: [{"icon":"code","title":"프론트엔드 개발","description":"React, TypeScript, Next.js를 활용한 모던 웹 개발"},{"icon":"database","title":"백엔드 개발","description":"Node.js, Python, 데이터베이스 설계 및 구현"},{"icon":"palette","title":"UI/UX 디자인","description":"사용자 중심의 인터페이스 디자인"}],
+    background: {"image":"/uploads/about-background-1765138497067.jpg","video":"","color":"","opacity":0.2},
+    experienceCards: [{"icon":"graduation","title":" 단국대학교 도시계획부동산학부","period":"2021 - 현재","description":"부동산 시장 및 정책에 대한 깊이 있는 이해와 더불어, 도시 개발 및 관리의 구조를 분석하는 전문적인 지식 기반을 갖추었습니다."},{"icon":"user","title":"대한민국 육군 병장 만기전역","period":"2022-2024","description":"취사병 경험을 통해 강한 책임감과 성실성, 극한의 상황에서도 효율적으로 임무를 완수하는 문제 해결 능력 및 체계적인 조직 관리 능력을 함양했습니다."},{"icon":"rocket","title":"도시계획기사 (준비중)","period":"2026~","description":"도시의 종합적인 계획 및 설계에 필요한 전문 지식과 실무 능력을 확보하고 있으며, 곧 자격 취득을 통해 도시 개발 분야의 전문성을 공식적으로 입증할 예정입니다."},{"icon":"trophy","title":"컴퓨터활용능력 1급","period":"2022","description":"정밀한 데이터 관리 및 분석 능력을 갖추고 있어, 복잡한 도시 및 부동산 데이터를 효율적으로 처리하고 보고서를 작성할 수 있습니다."},{"icon":"trophy","title":"한국사능력검정시험 1급","period":"2024","description":"역사적 맥락을 고려한 지속 가능한 도시 정책 및 개발 방향을 제시하는 데 기여할 수 있습니다."},{"icon":"trophy","title":"TOEIC Speaking IH","period":"2025","description":"비즈니스 환경에서 효과적으로 의사소통할 수 있는 중상급 수준의 구두 영어 능력을 갖추어 국제적인 업무 환경 및 자료 해석에 유리합니다."}],
+    skills: [],
     storyTitle: "나의 이야기",
-    story: ["저는 기술을 통해 사람들의 삶을 더 편리하고 의미 있게 만드는 일에 열정을 가지고 있습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","앞으로도 지속적인 학습과 도전을 통해 더 나은 개발자가 되기 위해 노력하겠습니다."],
+    story: ["현재 단국대학교에서 부동산과 도시계획을 아우르는 지식을 습득하며, 도시의 개발 구조와 경제적 메커니즘을 동시에 분석하는 다각적인 시각을 확보했습니다. 현재 도시계획기사 자격 취득을 준비하며 전문 지식을 공고히 하고 있으며, 컴퓨터 활용 능력 1급과 토익스피킹 IH 자격을 통해 실무 데이터 분석 및 비즈니스 소통 능력을 갖추었습니다. 이러한 융합적 역량을 바탕으로, 도시와 부동산 시장이 직면한 복합적인 현안에 대해 이론적 통찰과 실무적 해결 방안을 모두 제시할 수 있는 준비된 인재입니다."],
     storyImage: "",
     hobbies: ["📚 독서","☕ 카페 투어","🎨 전시회 관람","✈️ 여행"]
   }

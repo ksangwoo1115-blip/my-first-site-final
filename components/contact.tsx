@@ -34,14 +34,14 @@ export function Contact() {
   
   // 기본 데이터
   const defaultInfo = {
-    name: "당신의 이름",
-    title: "직책/직무",
+    name: "김상우",
+    title: "단국대학교",
     company: "",
-    experience: "3년 경력",
-    phone: "010-0000-0000",
-    email: "your-email@example.com",
+    experience: "32210666",
+    phone: "010-2656-1149",
+    email: "ksangwoo1115@gmail.com",
     website: "",
-    location: "당신의 위치",
+    location: "용인시 수지구",
     workTime: "평일 09:00 - 18:00",
     responseTime: "24시간 이내 응답",
     sectionTitle: "연락처",
@@ -52,7 +52,7 @@ export function Contact() {
     bottomSubMessage: "고객님의 성공적인 프로젝트를 위해 최선을 다하겠습니다.",
     qrContent: ["name","phone","email","location","website"],
     profileEmoji: "👤",
-    background: {"image":"","video":"","color":"","opacity":0.1}
+    background: {"image":"/uploads/contact-background-1765138512526.jpg","video":"","color":"","opacity":0.2}
   }
   
   // 소셜 링크 기본값 (배열 형태로 변경)

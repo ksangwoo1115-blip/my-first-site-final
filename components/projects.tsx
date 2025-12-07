@@ -17,13 +17,8 @@ export function Projects() {
     subtitle: "프로젝트",
     initialDisplay: 6,
     loadMoreCount: 3,
-    background: {
-      image: "",
-      video: "",
-      color: "",
-      opacity: 0.1
-    },
-    projects: [] as Array<{ image: string; video?: string; title: string; description: string }>
+    background: {"image":"/uploads/projects-background-1765138504851.jpg","video":"","color":"","opacity":0.2},
+    projects: [{"image":"/uploads/project-0-1765139648367.jpg","video":"","title":"기후변화에 대응하는 세계 도시 현안","description":"도시의 온실가스 배출 감축과 기후 재해에 대한 적응력 강화가 핵심 현안입니다. 폭염 및 홍수 같은 기후 리스크에 대비한 녹색 기반 시설 확충과 에너지 효율적인 도시 계획이 시급히 요구됩니다."},{"image":"/uploads/project-1-1765139657148.jpg","video":"","title":"9.7 부동산 정책 유휴부지 개발 적합성 분석","description":"'9.7 부동산 대책' 등에 포함된 유휴 국공유지를 활용하여 주택 공급을 확대하는 방안의 적합성을 분석합니다. 단순히 물량을 늘리는 것을 넘어, 해당 부지의 도시 계획적 기능과 지역 주민의 필요를 고려한 개발 모델이 필요합니다."},{"image":"/uploads/project-2-1765139716463.jpg","video":"","title":"부동산 규제 정책 토론 자료","description":"주택 시장 안정과 주거 복지 실현을 위한 정부의 다양한 규제 정책에 대한 찬반 논리를 다룹니다. 규제가 시장 효율성과 사유 재산권을 침해하는지, 아니면 형평성과 투기 억제를 위해 필수적인지를 중심으로 토론 자료를 구성합니다."},{"image":"/uploads/project-3-1765139776102.jpg","video":"","title":"기준금리와 HUG 재무건전성에 대한 인과관계 분석","description":"한국주택금융공사(HUG)가 보증한 전세금 반환 및 프로젝트 파이낸싱(PF) 관련 보증 리스크를 분석합니다. 기준금리 인상이 부동산 시장 침체와 건설사의 부실로 이어져 HUG의 보증 부실률을 높이고 재무건전성에 미치는 영향을 분석합니다."},{"image":"/uploads/project-4-1765139665307.png","video":"","title":"AI 데이터 센터와 도시의 사회적 문제 분석","description":"AI 시대를 뒷받침하는 데이터 센터의 급증이 도시 환경과 사회에 미치는 영향을 탐구합니다. 데이터 센터가 유발하는 막대한 전력 소모와 열섬 현상 같은 환경 문제, 그리고 이로 인한 지역 사회 갈등 및 전력 수급 불안정 등의 사회적 문제를 다룹니다."}] as Array<{ image: string; video?: string; title: string; description: string }>
   }
 
   const [projectsInfo, setProjectsInfo] = useState(defaultInfo)
